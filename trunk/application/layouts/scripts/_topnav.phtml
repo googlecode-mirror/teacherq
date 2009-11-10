@@ -1,0 +1,85 @@
+<h2 class="noDisplay">Main Navigation</h2>
+<div class="main-nav">
+    <ul class="clearfix">
+        <li class="current">
+            <a href="
+                <?= $this->url(array(
+                        'controller' => 'index',
+                        'action'     => 'index',
+                        ), 
+                        'default'
+                    ); 
+                 ?>" 
+               title="answer">知道</a>
+        </li>
+        <li>
+            <a href="
+                <?= $this->url(array(
+                        'controller' => 'customer',
+                        'action'     => 'logout',
+                        ), 
+                        'default'
+                    ); 
+                 ?>"
+               title="logout">退出</a>
+        </li>
+        <li>
+            <a href="
+                <?= $this->url(array(
+                        'controller' => 'customer',
+                        'action'     => 'login',
+                        ), 
+                        'default'
+                    ); 
+                 ?>"
+               title="login">登录</a>
+        </li>
+        <li>
+            <a href="
+                <?= $this->url(array(
+                        'controller' => 'customer',
+                        'action'     => 'register',
+                        ), 
+                        'default'
+                    ); 
+                 ?>"
+               title="register">注册</a>
+        </li>
+        <li>
+            <a href="
+                <?= $this->url(array(
+                        'controller' => 'index',
+                        'action'     => 'index',
+                        'module'     => 'cms'
+                        ), 
+                        'default'
+                    ); 
+                 ?>"
+               title="about">关于</a>
+        </li>
+        <li>
+            <a href="
+                <?= $this->url(array(
+                        'controller' => 'index',
+                        'action'     => 'index',
+                        'module'     => 'cms'
+                        ), 
+                        'default'
+                    ); 
+                 ?>"
+               title="Contact">联系我们</a>
+        </li>
+        <li>
+            <a href="
+                <?= $this->url(array(
+                        'controller' => 'admin',
+                        'action'     => 'index',
+                        'module'     => 'storefront'
+                        ), 
+                        'default'
+                    ); 
+                 ?>"
+               title="administration area">管理</a>
+        </li>
+    </ul>
+</div>
