@@ -45,7 +45,7 @@ class Bootstrap extends Zend_Application_Bootstrap_Bootstrap
 		
 		$this->_resourceLoader->addResourceTypes(array(
 			'modelResource' => array(
-				'path'	=> 'models/resources',
+				'path'	=> 'models/resource',
 				'namespace'	=> 'Resource',
 			),
 			'service' => array(
