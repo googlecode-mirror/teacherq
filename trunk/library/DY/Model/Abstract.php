@@ -1,6 +1,6 @@
 <?php
 /**
- * SF_Model_Abstract
+ * DY_Model_Abstract
  * 
  * Base model class that all our models will inherit from.
  * 
