@@ -5,14 +5,14 @@ class Dayi_Form_User_Base extends Zend_Form
 	public function init()
 	{
 		$this->addElementPrefixPath(
-			'dayi_Validate',
+			'Dayi_Validate',
 			APPLICATION_PATH . '/modules/dayi/validate/',
 			'validate'
 		);
 		
 		$this->addElement('text', 'username', array(
 			'filters'	=> array('StringTrim'),
-			'validators' => array(array('StringLength', true, array(3, 20))),
+			'validators' => array(array('StringLengthCN',true, array(6,20))),
 			'required'	=> true,
 			'label'	=> '用户名',
 		));

@@ -50,6 +50,7 @@ class Dayi_Resource_User extends DY_Model_Resource_Db_Table_Abstract implements 
 		
 		return $this->fetchAll($select);
 	}
+	
 }
 
 ?>
