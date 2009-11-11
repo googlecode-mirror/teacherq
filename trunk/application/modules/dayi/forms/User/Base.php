@@ -12,7 +12,7 @@ class Dayi_Form_User_Base extends Zend_Form
 		
 		$this->addElement('text', 'username', array(
 			'filters'	=> array('StringTrim'),
-			'validators' => array('StringLength', true, array(3, 20)),
+			'validators' => array(array('StringLength', true, array(3, 20))),
 			'required'	=> true,
 			'label'	=> '用户名',
 		));
