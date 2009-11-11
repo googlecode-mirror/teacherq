@@ -105,7 +105,7 @@ abstract class DY_Model_Resource_Db_Table_Row_Abstract
             return;
         }
 
-        throw new SF_Model_Exception('Could not set rowClass in ' . __CLASS__);
+        throw new DY_Model_Exception('Could not set rowClass in ' . __CLASS__);
     }
 
     /**

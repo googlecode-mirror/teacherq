@@ -3,7 +3,7 @@
 class Dayi_Resource_User extends DY_Model_Resource_Db_Table_Abstract implements Dayi_Resource_User_Interface 
 {
 	protected $_name = 'user';
-	protected $_primary = 'userId';
+	protected $_primary = 'uid';
 	protected $_rowClass = 'Dayi_Resource_User_Item';
 	
 	public function getUserById($id)
