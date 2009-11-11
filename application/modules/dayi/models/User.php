@@ -1,11 +1,12 @@
 <?php
 
-class Dayi_Model_User extends DY_Model_Abstract 
+class Dayi_Model_User extends DY_Model_Abstract  
 {
 	public function getUserById($id)
 	{
 		$id = (int) $id;
 		return $this->getResource('User')->getUserById($id);
+		
 	}
 	
 	public function getUserByEmail($email, $ignoreUser=null)
