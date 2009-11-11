@@ -6,13 +6,13 @@ class Dayi_Form_User_Base extends Zend_Form
 	{
 		$this->addElementPrefixPath(
 			'Dayi_Validate',
-			APPLICATION_PATH . '/modules/dayi/validate/',
+			APPLICATION_PATH . '/modules/dayi/models/validate/',
 			'validate'
 		);
 		
 		$this->addElement('text', 'username', array(
 			'filters'	=> array('StringTrim'),
-			'validators' => array(array('StringLengthCN',true, array(6,20))),
+			'validators' => array(array('StringLength',true)),
 			'required'	=> true,
 			'label'	=> '用户名',
 		));
