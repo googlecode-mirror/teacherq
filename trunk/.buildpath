@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <buildpath>
 	<buildpathentry external="true" kind="lib" path="D:/ZF1.9"/>
+	<buildpathentry external="true" kind="lib" path="D:/ZF-1.9.5"/>
 	<buildpathentry kind="src" path=""/>
 	<buildpathentry kind="con" path="org.eclipse.php.core.LANGUAGE"/>
 </buildpath>
