@@ -25,9 +25,9 @@ class Dayi_UserController extends Zend_Controller_Action
 	 */
 	public function indexAction() 
 	{
-	/*	$userId = 1;
+		$userId = 1;
 		$this->view->user = $this->_model->getUserById($userId);
-		$this->view->userForm = $this->getUserForm();*/
+		$this->view->userForm = $this->getUserForm()->populate($this->view->user->toArray());
 	}
 
 }
